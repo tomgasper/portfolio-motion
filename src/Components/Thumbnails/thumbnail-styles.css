@@ -9,7 +9,7 @@
 }
 
 .thumbnail-navlink:hover {
-    opacity:0.5;
+    opacity:0.85;
 }
 
 /* Style 1 */
@@ -20,6 +20,7 @@
     transition: 150ms;
     margin: 0 0 5% 0;
     align-items: start;
+    max-width: fit-content;
 }
 
 .thumbnail-placeholder-1 {
@@ -30,6 +31,7 @@
 
 .thumbnail-placeholder-1 img {
     pointer-events: none;
+    max-height: 100%;
     max-width:100%;
 }
 
@@ -42,6 +44,9 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin-top:5px;
+    margin-left:30px;
+    margin-right:30px;
 }
 
 .thumbnail-text-1 {
@@ -77,6 +82,7 @@
 
 .thumbnail-placeholder-2 img {
     pointer-events: none;
+    max-height: 100%;
     max-width:100%;
 }
 
@@ -88,11 +94,13 @@
 .thumbnail-text-container-2 {
     display: flex;
     flex-direction: column;
+    margin-top: 150px;
+    margin-right: 30px;
+    width:300px;
 }
 
 .thumbnail-text-2 {
     color:black;
-    margin: 2% 0 0 0;
     font-size: 30px;
     font-weight: 300;
 }

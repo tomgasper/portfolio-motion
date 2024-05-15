@@ -12,6 +12,8 @@ import Header from './Header.js'
 import Tools from './Tools/Tools'
 import ProjectPage from './ProjectPage.js';
 
+import WorkFooter from './Work/WorkFooter.js';
+
 import { ProjectProvider } from './ProjectContext.js';
 import { ProjectContext } from './ProjectContext.js';
 
@@ -34,8 +36,10 @@ function App() {
                     />
                 } />
                 <Route path='/home' element={
-                    <Work
+                    <><Work
                     projects={projects} />
+                    <WorkFooter />
+                    </>
                 } />
                 <Route path='/about' element={
                     <About />
@@ -43,7 +47,6 @@ function App() {
                 <Route path='/tools' element={<Tools />} />
             </Routes>
             </HashRouter>
-            <Footer />
             </div>
         </div>
     )
