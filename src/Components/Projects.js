@@ -3,18 +3,19 @@ import React from "react";
 
 const projects = [
     {
-
-    id:'woshapp',
-    title:'Woshapp',
+    id:'animdu',
+    title:'Animdu Brand Film',
+    desc:'Placeholder description - will be updated later on',
     thumbnail:'./img/woshapp/thumbnail.jpg',
     text:'Together with BluBlu Studios & Explainer.se we created an animated video explaining how Woshapp works.',
     text2:'Illustrations/Creative Direction/Concept/Sound design- BluBlu Studios & Explainer.se',
     vid:[],
-    img:['./img/woshapp/gif1.gif', './img/woshapp/gif2.gif', './img/woshapp/gif3.gif']
+    img:['./img/woshapp/gif1.gif', './img/woshapp/gif2.gif', './img/woshapp/gif3.gif'],
     },
     {
     id:'reel',
     title:'Reel',
+    desc:'Placeholder description - will be updated later on',
     thumbnail:'./img/reel/thumbnail2.gif',
     text:'Quick overview of my work from previous years',
     text2:'',
