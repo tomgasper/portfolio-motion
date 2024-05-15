@@ -1,3 +1,4 @@
+/* Section Mid */
 .workSectionMid-container img {
     max-width: 100%;
     max-height: 100%;
@@ -25,4 +26,38 @@
     justify-content: center;
     align-items: center;
     width:50%;
+}
+
+/* Section End */
+
+.workSectionEnd-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.workSectionEnd-container {
+    display:flex;
+    flex-direction: row;
+    /* background-color: red; */
+    width:100%;
+    height: 1200px;
+}
+
+.workSectionEnd-left {
+    /* background-color: aqua; */
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+    width:60%;
+    height:100%;
+}
+
+.workSectionEnd-right {
+    /* background-color: yellow; */
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width:40%;
 }
