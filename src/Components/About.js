@@ -1,11 +1,15 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useContext } from 'react';
 
 import dribbbleIcon from './svg/dribbble.svg'
 import instagramIcon from './svg/instagram.svg'
 import vimeoIcon from './svg/vimeo.svg'
-import emailIcon from './svg/email.svg'
+import emailIcon from './svg/email.svg';
 
-function About( { currentProject, setCurrentProject } ) {
+import { ProjectContext } from './ProjectContext';
+
+function About( ) {
+    const {currentProject, setCurrentProject, changeProject} = useContext(ProjectContext);
+
     useEffect( () => {
     if ( currentProject )
     setCurrentProject("")

@@ -1,10 +1,13 @@
-import React, { useEffect } from 'react';
+import React, { useContext } from 'react';
 import CurrentProject from "./CurrentProject";
 import Work from './Work/Work';
 
 import { useParams } from 'react-router-dom';
 
-function ProjectPage({ currentProject, setCurrentProject, changeProject, projects }) {
+import { ProjectContext } from './ProjectContext';
+
+function ProjectPage({ projects }) {
+    const {currentProject, setCurrentProject, changeProject} = useContext(ProjectContext);
 
     let { projectId } = useParams();
     setCurrentProject(projectId);

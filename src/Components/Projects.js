@@ -34,6 +34,7 @@ const projects = [
     {
     id:'illustrations',
     title:'Illustrations',
+    desc:'Placeholder description - will be updated later on',
     thumbnail:'./img/ill/thumbnail2.gif',
     text:'Collection of personal illustrations',
     text2:'',
@@ -43,6 +44,7 @@ const projects = [
     {
     id:'catastrophizing',
     title:'Truist - Catastrophizing',
+    desc:'Placeholder description - will be updated later on',
     thumbnail:'./img/cat/thumbnail4.png',
     text:(<span>Client: Archetype UK<br/>Art Direction/Animation: Tom Gasper</span>),
     text2:(<span>Tailored for Truist bank, this motion design film serves as a supportive resource for employees grappling with workplace stress. Despite facing tight deadlines, the video effectively communicates its intended message, earning client satisfaction.<br/><br/>Leading the project from inception to completion,<br/>I was responsible for every stage, from storyboarding, through artwork design to animation.</span>),
@@ -53,6 +55,7 @@ const projects = [
     id:'mtvrewind',
     title:'MTV - Rewind',
     thumbnail:'./img/mtv/thumbnail.jpg',
+    desc:'Placeholder description - will be updated later on',
     text:'Production: MTV Europe in-house team',
     text2:'Illustration - MaryLou Faure Animation - Keeley Sheppard, Tom Gasper, Amy Shields, Lydia Haworth, Kelly Peters',
     vid:['https://player.vimeo.com/video/333590706'],
@@ -62,6 +65,7 @@ const projects = [
     id:'mixedparts',
     title:'Mixed Parts entry',
     thumbnail:'./img/bizzare/thumbnail.png',
+    desc:'Placeholder description - will be updated later on',
     text:(<span>Short and playful gif created for a mixed.parts(motion design board)<br/>animation contest.</span>),
     text2:'',
     vid:['https://player.vimeo.com/video/316840574', 'https://player.vimeo.com/video/382451381'],

@@ -1,21 +1,23 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
-
 import ThumbnailDesc from './ThumbnailDesc';
+import "./thumbnail-styles.css";
 
-import "./thumbnail-styles.css" 
+import { ProjectContext } from '../ProjectContext';
 
-function Thumbnail({project, id, size, style, side, changeProject, currentProject }) {
+function Thumbnail({project, size, styleNum, isTextBeforeImg, side }) {
+    const {currentProject, changeProject} = useContext(ProjectContext);
+
     const isActive = () => {
     if ( currentProject === project.id ) { return 0.6 }
     else return 1
     }
 
-    if (side === "left")
+    if (isTextBeforeImg === true)
     {
         return (
-            <div className={`thumbnail-container-${style}`} id={project.id} style={ { opacity: isActive() } } >
-                <ThumbnailDesc project={project} style={style} changeProject={changeProject} />
+            <div className={`thumbnail-container-${styleNum}`} id={project.id} style={ { opacity: isActive() } } >
+                <ThumbnailDesc side={side} project={project} styleNum={styleNum} changeProject={changeProject} />
                 <NavLink to={"/work/"+project.id} className="thumbnail-navlink" >
                     <div
                     style={{width:size[0], height:size[1], backgroundColor:"#D7EEED"}}
@@ -28,7 +30,7 @@ function Thumbnail({project, id, size, style, side, changeProject, currentProjec
             )
     } else {
         return (
-            <div className={`thumbnail-container-${style}`} id={project.id} style={ { opacity: isActive() } } >
+            <div className={`thumbnail-container-${styleNum}`} id={project.id} style={ { opacity: isActive() } } >
                 <NavLink to={"/work/"+project.id} className="thumbnail-navlink" >
                     <div
                     style={{width:size[0], height:size[1], backgroundColor:"#D7EEED"}}
@@ -37,7 +39,7 @@ function Thumbnail({project, id, size, style, side, changeProject, currentProjec
                     <img src={ project.thumbnail } alt={ project.text } />
                     </div>
                 </NavLink>
-                <ThumbnailDesc project={project} style={style} changeProject={changeProject} />
+                <ThumbnailDesc side={side} project={project} styleNum={styleNum} changeProject={changeProject} />
             </div>
             )
     }
