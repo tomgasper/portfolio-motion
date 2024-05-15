@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import CurrentProject from "./CurrentProject";
-import Work from './Work';
+import Work from './Work/Work';
 
 import { useParams } from 'react-router-dom';
 

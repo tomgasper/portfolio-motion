@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import { Navigate } from 'react-router-dom';
 
-import Work from './Work.js'
+import Work from './Work/Work'
 import About from './About.js'
 import Navigation from './Navigation.js'
 import Footer from './Footer.js'

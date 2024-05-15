@@ -1,8 +1,8 @@
 import React from 'react';
-import Thumbnail from './Thumbnail';
-import Thumbnail_1 from './Thumbnails/Thumbnail_1';
+import Thumbnail_1 from '../Thumbnails/Thumbnail_1';
 
-import Hero from './Hero';
+import Hero from '../Hero';
+import LogoSection from '../LogoSection/LogoSection';
 
 
 function Work(props) {
@@ -24,8 +24,9 @@ function Work(props) {
     return (
         <div className="work-container">
             <Hero />
-            <Thumbnail_1 project={projects[0]} style={1} changeProject={props.changeProject} currentProject={props.currentProject}></Thumbnail_1>
-            <Thumbnail_1 project={projects[1]} style={2} changeProject={props.changeProject} currentProject={props.currentProject}></Thumbnail_1>
+            <Thumbnail_1 project={projects[0]} size={[1600,1000]} style={1} changeProject={props.changeProject} currentProject={props.currentProject} />
+            <Thumbnail_1 project={projects[1]} size={[1400,800]} style={2} side={"left"} changeProject={props.changeProject} currentProject={props.currentProject} />
+            <LogoSection/>
         </div>
     )
 }
