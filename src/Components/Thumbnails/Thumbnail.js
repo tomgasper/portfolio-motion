@@ -31,11 +31,13 @@ function Thumbnail({project, vid, size, styleNum, isTextBeforeImg, side }) {
                 <ThumbnailDesc side={side} project={project} styleNum={styleNum} changeProject={changeProject} />
                 <NavLink to={"/work/"+project.id} className="thumbnail-navlink" >
                     { vid ?
-                    <video width={size[0]} height={size[1]} autostart loop autoPlay src={project.vidThumbnail} type="video/mp4" />
+                    <video width={size[0]} autostart loop autoPlay src={project.vidThumbnail} type="video/mp4" />
                     : <div
-                    style={{width:size[0], height:size[1], backgroundColor:"#D7EEED"}}
+                    style={{width:size[0], backgroundColor:"#D7EEED"}}
                     id={project.id}
-                    onClick={changeProject} >
+                    onClick={changeProject}
+                    className='thumbnail-img-container'
+                    >
                     <img src={ project.thumbnail } alt={ project.text } />
                     </div>
                     }
@@ -47,12 +49,15 @@ function Thumbnail({project, vid, size, styleNum, isTextBeforeImg, side }) {
             <div className={`thumbnail-container-${styleNum}`} id={project.vidThumbnail} style={descStyle} >
                 <NavLink to={"/work/"+project.id} className="thumbnail-navlink" >
                     { vid ?
-                    <video width={size[0]} height={size[1]} autostart loop autoPlay src={project.vidThumbnail} type="video/mp4" />
+                    <video width={size[0]} autostart loop autoPlay src={project.vidThumbnail} type="video/mp4" />
                     : <div
-                    style={{width:size[0], height:size[1], backgroundColor:"#D7EEED"}}
+                    style={{width:size[0], backgroundColor:"#D7EEED"}}
                     id={project.id}
-                    onClick={changeProject} >
-                    <img src={ project.thumbnail } alt={ project.text } />
+                    onClick={changeProject}
+                    className='thumbnail-img-container'
+                    >
+                    <img src={ project.thumbnail } alt={ project.text }
+                    />
                     </div>
                     }
                 </NavLink>

@@ -6,7 +6,7 @@ const projects = [
     id:'animdu',
     title:'Animdu Brand Film',
     desc:'Placeholder description - will be updated later on',
-    thumbnail:'./img/animdu/thumbnail.jpg',
+    thumbnail:'./img/animdu/thumbnail2.jpg',
     text:'Together with BluBlu Studios & Explainer.se we created an animated video explaining how Woshapp works.',
     text2:'Illustrations/Creative Direction/Concept/Sound design- BluBlu Studios & Explainer.se',
     vidThumbnail:"./img/animdu/animdu_3.mp4",
@@ -34,16 +34,6 @@ const projects = [
     // img:['./img/tn/img3.jpg', './img/tn/img2.jpg', './img/tn/img1.jpg',]
     // },
     {
-    id:'illustrations',
-    title:'Illustrations',
-    desc:'Placeholder description - will be updated later on',
-    thumbnail:'./img/ill/thumbnail2.gif',
-    text:'Collection of personal illustrations',
-    text2:'',
-    vid:[],
-    img:['./img/ill/gif1.gif', './img/ill/img2.jpg', './img/ill/img3.jpg', './img/ill/gif4.gif', './img/ill/gif5.gif', './img/ill/img6.jpg', './img/ill/gif7.gif', ]
-    },
-    {
     id:'catastrophizing',
     title:'Truist - Catastrophizing',
     desc:'Placeholder description - will be updated later on',
@@ -54,19 +44,19 @@ const projects = [
     img:['./img/cat/img3.png', './img/cat/img6.png', './img/cat/img4.png', './img/cat/img1.png','./img/cat/img2.png']
     },
     {
-    id:'mtvrewind',
-    title:'MTV - Rewind',
-    thumbnail:'./img/mtv/thumbnail.jpg',
+    id:'spring',
+    title:'Spring',
     desc:'Placeholder description - will be updated later on',
-    text:'Production: MTV Europe in-house team',
-    text2:'Illustration - MaryLou Faure Animation - Keeley Sheppard, Tom Gasper, Amy Shields, Lydia Haworth, Kelly Peters',
-    vid:['https://player.vimeo.com/video/333590706'],
-    img:[]
+    thumbnail:'./img/spring/thumbnail2.jpg',
+    text:'Experimental motion design work',
+    text2:'',
+    vid:['https://player.vimeo.com/video/340640923'],
+    img:["./img/spring/img1.jpg","./img/spring/img2.png","./img/spring/img3.jpg","./img/spring/img4.jpg"]
     },
     {
     id:'mixedparts',
     title:'Mixed Parts entry',
-    thumbnail:'./img/bizzare/thumbnail.png',
+    thumbnail:'./img/bizzare/thumbnail2.jpg',
     desc:'Placeholder description - will be updated later on',
     text:(<span>Short and playful gif created for a mixed.parts(motion design board)<br/>animation contest.</span>),
     text2:'',
@@ -77,12 +67,23 @@ const projects = [
     {
     id:'pwcsmart',
     title:'PwC - SmartCredentials',
-    thumbnail:'./img/pwc/thumbnail.jpg',
+    desc:'Placeholder description - will be updated later on',
+    thumbnail:'./img/pwc/thumbnail4.jpg',
     text:(<span>Production/Script: Casual Films<br/> Animation/Design/Storyboard: Tom Gasper</span>),
     text2:(<span> I directed the creation of an animation explaining the workings of PwC's distributed ledger platform, leading the project from initial design development to the delivery of the final product.</span>),
     vid:['https://player.vimeo.com/video/333590364'],
     img:['./img/pwc/img1.png','./img/pwc/img2.png', './img/pwc/img3.png']
-    },    
+    },  
+    {
+    id:'mtvrewind',
+    title:'MTV - Rewind',
+    thumbnail:'./img/mtv/thumbnail2.jpg',
+    desc:'Placeholder description - will be updated later on',
+    text:'Production: MTV Europe in-house team',
+    text2:'Illustration - MaryLou Faure Animation - Keeley Sheppard, Tom Gasper, Amy Shields, Lydia Haworth, Kelly Peters',
+    vid:['https://player.vimeo.com/video/333590706'],
+    img:[]
+    },  
     // {
     // title:'Akamai Image Manager',
     // thumbnail:'./img/akamai/thumbnail.png',
@@ -92,14 +93,16 @@ const projects = [
     // img:[]
     // },
     {
-    id:'spring',
-    title:'Spring',
-    thumbnail:'./img/spring/thumbnail.jpg',
-    text:'Experimental motion design work',
+    id:'illustrations',
+    title:'Illustrations',
+    desc:'Placeholder description - will be updated later on',
+    vidThumbnail:"./img/ill/thumbnail.mp4",
+    thumbnail:'./img/ill/thumbnail2.gif',
+    text:'Collection of personal illustrations',
     text2:'',
-    vid:['https://player.vimeo.com/video/340640923'],
-    img:["./img/spring/img1.jpg","./img/spring/img2.png","./img/spring/img3.jpg","./img/spring/img4.jpg"]
-    },
+    vid:[],
+    img:['./img/ill/gif1.gif', './img/ill/img2.jpg', './img/ill/img3.jpg', './img/ill/gif4.gif', './img/ill/gif5.gif', './img/ill/img6.jpg', './img/ill/gif7.gif', ]
+},
     
     
 ]
