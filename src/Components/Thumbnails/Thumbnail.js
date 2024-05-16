@@ -15,6 +15,7 @@ function Thumbnail({project, vid, size, styleNum, isTextBeforeImg, side }) {
 
     const descStyle =
         {
+            width: size,
             alignItems:"start",
             opacity: isActive(),
         };
@@ -31,9 +32,9 @@ function Thumbnail({project, vid, size, styleNum, isTextBeforeImg, side }) {
                 <ThumbnailDesc side={side} project={project} styleNum={styleNum} changeProject={changeProject} />
                 <NavLink to={"/work/"+project.id} className="thumbnail-navlink" >
                     { vid ?
-                    <video width={size[0]} autostart loop autoPlay src={project.vidThumbnail} type="video/mp4" />
+                    <video style={{maxWidth:"100%"}} autostart loop muted autoPlay src={project.vidThumbnail} type="video/mp4" />
                     : <div
-                    style={{width:size[0], backgroundColor:"#D7EEED"}}
+                    style={{}}
                     id={project.id}
                     onClick={changeProject}
                     className='thumbnail-img-container'
@@ -49,9 +50,9 @@ function Thumbnail({project, vid, size, styleNum, isTextBeforeImg, side }) {
             <div className={`thumbnail-container-${styleNum}`} id={project.vidThumbnail} style={descStyle} >
                 <NavLink to={"/work/"+project.id} className="thumbnail-navlink" >
                     { vid ?
-                    <video width={size[0]} autostart loop autoPlay src={project.vidThumbnail} type="video/mp4" />
+                    <video style={{maxWidth:"100%"}} autostart loop muted autoPlay src={project.vidThumbnail} type="video/mp4" />
                     : <div
-                    style={{width:size[0], backgroundColor:"#D7EEED"}}
+                    style={{ }}
                     id={project.id}
                     onClick={changeProject}
                     className='thumbnail-img-container'

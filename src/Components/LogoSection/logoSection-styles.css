@@ -56,3 +56,225 @@
     margin-left: 25px;
     margin-right: 0px;
 }
+
+@media (max-width: 1800px) {
+    .logoSection-container {
+        font-size: 24px;
+        height:220px;
+    }
+
+    .logoSection-img {
+        align-items: flex-start;
+    }
+
+    .logoSection-img-line-1 {
+        gap:6%;
+    }
+    
+    .logoSection-img-line-2 {
+        gap:19%;
+        margin-right: 23%;
+    }
+
+    .logoSection-img-last {
+        margin-left: 0%;
+    }
+
+    .logoSection-line {
+        height:100%;
+        width:3px;
+        margin-left: 1.5%;
+        margin-right: 3.5%;
+    }
+
+    .logoSection-img {
+        margin-left: 0%;
+    }
+
+
+}
+
+@media (max-width: 1600px) {
+    .logoSection-container {
+        font-size: 22px;
+        height:180px;
+    }
+
+    .logoSection-line {
+        height:100%;
+        width:3px;
+        margin-left: 3%;
+        margin-right: 7%;
+    }
+
+    .logoSection-img-line-1 {
+        gap:10%;
+    }
+
+    .logoSection-img-line-2 {
+        gap:25%;
+    }
+
+    .logo-1 {
+        height:40px;
+    }
+
+    .logo-2 {
+        height:64px;
+    }
+
+    .logo-3 {
+        height:40px;
+    }
+
+    .logo-4 {
+        height:64px;
+    }
+
+    .logo-5 {
+        height:42px
+    }
+
+    .logo-6 {
+        height:56px;
+    }
+
+    .logo-7 {
+        height:80px;
+    }
+
+    .logoSection-img-last {
+        height: 94px;
+        margin-left: 3%;
+    }
+}
+
+@media (max-width: 1350px) {
+    .logoSection-container {
+        font-size: 16px;
+        margin-top: 5%;
+    }
+
+    .logoSection-img {
+        align-items: center;
+        max-width: fit-content;
+    }
+
+    .logoSection-line {
+        width:1.5px;
+        margin-left: 4%;
+        margin-right: 8%;
+    }
+
+    .logo-1 {
+        height:25px;
+    }
+
+    .logo-2 {
+        height:40px;
+    }
+
+    .logo-3 {
+        height:25px;
+    }
+
+    .logo-4 {
+        height:40px;
+    }
+
+    .logo-5 {
+        height:30px
+    }
+
+    .logo-6 {
+        height:35px;
+    }
+
+    .logo-7 {
+        height:50px;
+    }
+
+    .logoSection-img-last {
+        height: 55px;
+        margin-left: 0%;
+    }
+
+    .logoSection-img-line-1 {
+        margin-right: 0px;
+    }
+
+    .logoSection-img-line-2 {
+        gap:24%;
+    }
+}
+
+@media (max-width: 900px) {
+    .logoSection-line {
+        width:1.5px;
+        margin-left: 2%;
+        margin-right: 4%;
+    }
+}
+
+@media (max-width: 800px)
+{
+    .logoSection-container {
+        display:flex;
+        flex-direction: column;
+        height: 230px;
+        font-size: 26px;
+        align-items: flex-start;
+        align-self: center;
+        margin-top:5%;
+    }
+
+    .logoSection-container {
+        display: none;
+    }
+
+    .logoSection-text {
+        font-size: 18px;
+        width:100%;
+        margin: 3% 0 3% 0;
+    }
+
+    .logoSection-line {
+        display: none;
+    }
+
+    .logo-1 {
+        height:17.5px;
+    }
+
+    .logo-2 {
+        height:28px;
+    }
+
+    .logo-3 {
+        height:17.5px;
+    }
+
+    .logo-4 {
+        height:28px;
+    }
+
+    .logo-5 {
+        height:21px
+    }
+
+    .logo-6 {
+        height:24.5px;
+    }
+
+    .logo-7 {
+        height:35px;
+    }
+
+    .logoSection-img {
+        width: 100%;
+        align-items: center;
+        max-width: fit-content;
+        margin: 0 0 0 0;
+    }
+    
+}

@@ -14,11 +14,11 @@ function Work(props) {
     return (
         <div className="work-container">
             <Hero />
-            <Thumbnail vid={false} project={projects[0]} size={[1600,1000]} styleNum={1} isTextBeforeImg={false} side={"right"} />
-            <Thumbnail vid={true} project={projects[1]} size={[1250,800]} styleNum={2} isTextBeforeImg={true} side={"left"}  />
+            <Thumbnail vid={false} project={projects[0]} size={"90%"} styleNum={1} isTextBeforeImg={false} side={"right"} />
+            <Thumbnail vid={true} project={projects[1]} size={"85%"} styleNum={2} isTextBeforeImg={true} side={"left"}  />
             <LogoSection/>
             <WorkSectionMid projects={props.projects} />
-            <Thumbnail project={projects[5]} size={[1250,750]} styleNum={1} side={"left"} isTextBeforeImg={false} />
+            <Thumbnail project={projects[5]} size={"65%"} styleNum={1} side={"left"} isTextBeforeImg={false} />
             <WorkSectionEnd projects={props.projects} />
         </div>
     )
