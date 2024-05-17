@@ -1,0 +1,289 @@
+/* Detailed Project */
+.detailedProject-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    gap:30px;
+    font-size: 24px;
+    line-height: 1.3;
+    font-weight: 300;
+}
+
+.detailedProject-section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:95%;
+    gap:30px;
+}
+
+.detailedProject-section-2 {
+    display: flex;
+    flex-direction: column;
+    width:95%;
+    gap:30px;
+}
+
+.detailedProject-container img {
+    max-width:100%;
+}
+
+.detailedProject-img-1 {
+    margin-left: auto;
+    width:80%;
+}
+
+.detailedProject-img-2 {
+    display: flex;
+    flex-direction: row;
+    gap:0.5%;
+    width:100%;
+}
+
+.detailedProject-img-2 img {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+
+.detailedProject-img-3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap:30px;
+}
+
+.detailedProject-text-section-1 {
+    display: flex;
+    flex-direction: row;
+    gap:5%;
+}
+
+.detailedProject-text-section-1-left {
+    width:60%;
+}
+
+.detailedProject-text-section-1-right {
+    width:25%;
+    line-height: 1.3;
+    font-weight: 300;
+    margin-top: 1%;
+}
+
+.detailedProject-text-section-2 {
+    margin-top:2%;
+    margin-bottom: 2%;
+    width: 80%;
+}
+
+/* Project Container */
+.projectpage-container{
+    margin-top: 4%;
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Project Description */
+
+.projectDesc-container {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    margin-bottom: 4%;
+    /* background-color: red; */
+}
+
+.projectDesc-left {
+    display: flex;
+    width:53%;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+
+.projectDesc-title {
+    font-size: 34px;
+}
+
+.projectDesc-client {
+    font-size: 28px;
+}
+
+.projectDesc-role {
+    font-size: 20px;
+}
+
+.projectDesc-right {
+    display: flex;
+    width:30%;
+    /* background-color: yellow; */
+}
+
+/* Film Showcase */
+.filmSection-container {
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filmSection-center {
+    width:95%;
+}
+
+.filmShowcase-container
+{
+    width:100%;
+    position: relative;
+    padding-top: 56.26%;
+}
+
+.filmShowcase-container iframe {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Project Footer */
+.projectFooter-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.projectFooter-container a {
+    font-weight: 400;
+    color: black;
+}
+
+@keyframes move-x {
+    from {transform: translate(0px,0px)}
+    50% {
+        transform: translate(-20px,0px)
+    }
+    to {transform: translate(0px,0px)}
+  }
+
+.projectFooter-arrow {
+    width:55px;
+    animation-name: move-x;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+}
+
+@media (min-width: 1550px)
+{
+    .detailedProject-section-1 {
+        width:1500px;
+    }
+
+    .detailedProject-section-2 {
+        width:1500px;
+    }
+
+    .filmSection-center {
+        width:1500px;
+    }    
+}
+
+@media (max-width: 1200px)
+{
+    .projectDesc-left {
+        width:40%;
+    }
+
+    .projectDesc-right {
+        width:50%;
+    }
+
+    .detailedProject-container {
+        gap:30px;
+        font-size: 22px;
+    }
+
+
+    .detailedProject-text-section-1-right {
+        width:30%;
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 900px)
+{
+.detailedProject-container {
+    font-size: 20px;
+    gap:5px;
+}
+
+.detailedProject-section-1 {
+    gap:5px;
+}
+
+.detailedProject-section-2 {
+    gap:5px;
+}
+
+.detailedProject-text-section-1  {
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+
+.detailedProject-text-section-1-left {
+    width: 100%;
+}
+
+.detailedProject-text-section-1-right {
+    text-align: center;
+    width: 95%;
+    width: 100%;
+}
+
+.detailedProject-img-3 {
+    gap:5px;
+}
+
+.detailedProject-text-section-2 {
+    text-align: center;
+    width: 95%;
+}
+
+.projectDesc-container {
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+.projectDesc-left {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.projectDesc-right {
+    font-size: 22px;
+    width: 100%;
+}
+
+.detailedProject-img-1 {
+    width: 100%;
+    margin-left: 0;
+}
+
+.detailedProject-img-2
+{
+    flex-direction: column;
+    gap:5px;
+}
+
+.filmSection-container {
+    margin-top:2%;
+    margin-bottom:2%;
+}
+}

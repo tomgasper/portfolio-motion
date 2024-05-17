@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import CurrentProject from "./CurrentProject";
+import Project from './Project/Project';
 import Work from './Work/Work';
 
 import { useParams } from 'react-router-dom';
@@ -14,14 +15,9 @@ function ProjectPage({ projects }) {
 
     return(
         <div className='projectpage-container'>
-        <CurrentProject
-                currentProject={currentProject}
-                projects={projects} />
-        <Work
-                projects={projects}
-                changeProject={changeProject}
-                currentProject={currentProject}
-                 />
+            <Project
+            projects={projects}
+            />
         </div>
     )
 }

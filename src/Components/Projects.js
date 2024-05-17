@@ -7,6 +7,7 @@ const projects = [
     title:'Animdu Brand Film',
     desc:'Placeholder description - will be updated later on',
     thumbnail:'./img/animdu/thumbnail2.jpg',
+    template: 0,
     text:'Together with BluBlu Studios & Explainer.se we created an animated video explaining how Woshapp works.',
     text2:'Illustrations/Creative Direction/Concept/Sound design- BluBlu Studios & Explainer.se',
     vidThumbnail:"./img/animdu/animdu_3.mp4",
