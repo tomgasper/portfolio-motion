@@ -40,6 +40,7 @@ const projects = [
     title:'Truist - Catastrophizing',
     desc:'Placeholder description - will be updated later on',
     thumbnail:'./img/cat/thumbnail5.png',
+    template: 0,
     text:(<span>Client: Archetype UK<br/>Art Direction/Animation: Tom Gasper</span>),
     text2:(<span>Tailored for Truist bank, this motion design film serves as a supportive resource for employees grappling with workplace stress. Despite facing tight deadlines, the video effectively communicates its intended message, earning client satisfaction.<br/><br/>Leading the project from inception to completion,<br/>I was responsible for every stage, from storyboarding, through artwork design to animation.</span>),
     vid:['https://player.vimeo.com/video/915089940'],

@@ -7,6 +7,7 @@ const ProjectDescription = ({ desc }) => {
         <div className="projectDesc-left">
             <div className="projectDesc-title">{desc.title}</div>
             <div className="projectDesc-client">{desc.client}</div>
+            {desc.agency ? <div className="projectDesc-agency">{desc.agency}</div> : null}
             <div className="projectDesc-role">{desc.role}</div>
         </div>
         <div className="projectDesc-right">

@@ -68,14 +68,14 @@
 }
 
 .simpleProject-text-section-1 {
-    margin-top:2%;
+    margin-top:3%;
     margin-bottom: 2%;
     width: 80%;
 }
 
 .simpleProject-text-section-2 {
     margin-top:2%;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
     width: 80%;
 }
 
@@ -211,6 +211,10 @@
     font-size: 28px;
 }
 
+.projectDesc-agency {
+    font-size: 22px;
+}
+
 .projectDesc-role {
     font-size: 20px;
 }
@@ -224,6 +228,8 @@
 /* Film Showcase */
 .filmSection-container {
     background-color: rgb(241, 241, 241);
+    padding-top: 2%;
+    padding-bottom: 2%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -323,6 +329,11 @@
         width:30%;
         font-size: 20px;
     }
+
+    .filmSection-container {
+        margin-top:1%;
+        margin-bottom:1%;
+    }
     
 }
 
@@ -354,6 +365,7 @@
     text-align: center;
     width: 95%;
     width: 100%;
+    font-size: 18px;
 }
 
 .detailedProject-img-3 {
@@ -363,6 +375,68 @@
 .detailedProject-text-section-2 {
     text-align: center;
     width: 95%;
+    font-size: 18px;
+}
+
+.mediaGrid-line-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+    width: 100%;
+}
+
+.mediaGrid-line-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+    width: 100%;
+}
+
+.simpleProject-container {
+    font-size: 20px;
+    gap:5px;
+}
+
+.simpleProject-text-section-1 {
+    text-align: center;
+    font-size: 18px;
+    width: 95%;
+}
+
+.simpleProject-text-section-2 {
+    text-align: center;
+    font-size: 18px;
+    width: 95%;
+}
+
+.simpleProject-img-end-container {
+    flex-direction: column;
+}
+
+.simpleProject-img-end-left {
+    width: 100%;
+}
+
+.simpleProject-img-end-right {
+    width: 100%;
+}
+
+.mediaGrid-line-1-left {
+    width: 100%;
+}
+
+.mediaGrid-line-1-right {
+    width: 100%;
+}
+
+.mediaGrid-line-2-left {
+    width: 100%;
+}
+
+.mediaGrid-line-2-right {
+    width: 100%;
 }
 
 .projectDesc-container {
@@ -390,8 +464,11 @@
     gap:5px;
 }
 
-.filmSection-container {
-    margin-top:2%;
-    margin-bottom:2%;
+.projectFooter-arrow {
+    width: 30px;
+}
+
+.projectFooter-container {
+    font-size: 18px;
 }
 }
