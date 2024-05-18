@@ -2,7 +2,7 @@ import React from "react";
 
 import MediaObject from "./MediaObject";
 
-const MediaGrid = ({ mediaArr }) => {
+const MediaGrid = ({ mediaArr, isThreeImgs=false }) => {
     return(
         <div className="mediaGrid-container">
             <div className="mediaGrid-line-1">
@@ -14,12 +14,16 @@ const MediaGrid = ({ mediaArr }) => {
                 </div>
             </div>
             <div className="mediaGrid-line-2">
-                <div className="mediaGrid-line-2-left">
-                    <MediaObject path={mediaArr[2]}/>
-                </div>
-                <div className="mediaGrid-line-2-right">
-                    <MediaObject path={mediaArr[3]}/>
-                </div>
+                { isThreeImgs ? <MediaObject path={mediaArr[2]} /> : 
+                <>
+                    <div className="mediaGrid-line-2-left">
+                        <MediaObject path={mediaArr[2]}/>
+                    </div>
+                    <div className="mediaGrid-line-2-right">
+                        <MediaObject path={mediaArr[3]}/>
+                    </div>
+                </>
+                }
             </div>
         </div>
     )

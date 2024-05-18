@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    gap:5px;
+    gap:10px;
     width: 100%;
 }
 
@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap:5px;
+    gap:10px;
     width: 100%;
 }
 
@@ -82,12 +82,13 @@
 .simpleProject-img-end-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap:5px;
     width: 100%;
 }
 
 .simpleProject-img-end-container img{
-    width:100%;
+    max-width:100%;
 }
 
 .simpleProject-img-end-left {

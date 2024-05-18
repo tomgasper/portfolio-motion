@@ -10,6 +10,8 @@ import FooterProjectPage from "./FooterProjectPage";
 const DetailedProjectPage = ({project, details}) => {
     const media = details.media;
 
+    console.log(media);
+
     return (
         <div className="detailedProject-container">
             <div className="detailedProject-section-1">
