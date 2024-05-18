@@ -20,6 +20,7 @@ const projects = [
     desc:'Placeholder description - will be updated later on',
     thumbnail:'./img/reel/thumbnail2.gif',
     vidThumbnail:"./img/reel/thumbnail.mp4",
+    template: 1,
     text:'Quick overview of my work from previous years',
     text2:'',
     vid:['https://player.vimeo.com/video/486008220'],
