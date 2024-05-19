@@ -145,7 +145,7 @@
 .detailedProject-img-2 img {
     display: flex;
     flex-direction: row;
-    width:100%;
+    width:50%;
 }
 
 .detailedProject-img-3 {
@@ -205,6 +205,7 @@
 }
 
 .projectDesc-title {
+    font-weight: 400;
     font-size: 34px;
 }
 
@@ -351,6 +352,14 @@
 
 .detailedProject-section-2 {
     gap:5px;
+}
+
+.detailedProject-img-1 {
+    display: flex;
+}
+
+.detailedProject-img-2 img {
+    width: 100%;
 }
 
 .detailedProject-text-section-1  {

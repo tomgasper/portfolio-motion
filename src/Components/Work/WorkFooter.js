@@ -1,4 +1,5 @@
 import React from "react"
+import { NavLink } from "react-router-dom";
 
 const WorkFooter = () => {
     return(
@@ -13,9 +14,9 @@ const WorkFooter = () => {
                 </div>
             </div>
             <div className="workFooter-links">
-                <a href="google.com">Link 1</a>
-                <a href="google.com">Link 2</a>
-                <a href="google.com">Link 3</a>
+                <a href="https://www.behance.net/">Behance</a>
+                <a href="https://vimeo.com/tomgasper">Vimeo</a>
+                <NavLink to="/about">About</NavLink>
             </div>
         </div>
     )

@@ -7,7 +7,7 @@ const Section2 = () => {
                                 <b>Get markers from nested compositions</b>
                                 <br />and keep your project organized
                             </div>
-                        <img className="tools-gif" src='/img/tools/markers.gif' alt="Gif showing how markers work"></img>
+                        <img className="tools-gif" src='./img/tools/markers.gif' alt="Gif showing how markers work"></img>
                         </div>
                     
     )

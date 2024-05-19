@@ -5,7 +5,7 @@ const projects = [
     {
     id:'animdu',
     title:'Animdu Brand Film',
-    desc:'Placeholder description - will be updated later on',
+    desc:'Exploring a new approach to animation',
     thumbnail:'./img/animdu/thumbnail2.jpg',
     template: 0,
     text:'Together with BluBlu Studios & Explainer.se we created an animated video explaining how Woshapp works.',
@@ -17,13 +17,13 @@ const projects = [
     {
     id:'reel',
     title:'Reel',
-    desc:'Placeholder description - will be updated later on',
+    desc:'Collection of work from previous years',
     thumbnail:'./img/reel/thumbnail2.gif',
     vidThumbnail:"./img/reel/thumbnail.mp4",
     template: 1,
     text:'Quick overview of my work from previous years',
     text2:'',
-    vid:['https://player.vimeo.com/video/486008220'],
+    vid:['https://player.vimeo.com/video/944442197'],
     img:[]
     },
     // {
@@ -38,7 +38,7 @@ const projects = [
     {
     id:'catastrophizing',
     title:'Truist - Catastrophizing',
-    desc:'Placeholder description - will be updated later on',
+    desc:'Helping employees navigate workplace stress',
     thumbnail:'./img/cat/thumbnail.png',
     template: 0,
     text:(<span>Client: Archetype UK<br/>Art Direction/Animation: Tom Gasper</span>),
@@ -49,7 +49,7 @@ const projects = [
     {
     id:'spring',
     title:'Spring',
-    desc:'Placeholder description - will be updated later on',
+    desc:'Experimental motion design work',
     thumbnail:'./img/spring/thumbnail2.jpg',
     template: 1,
     text:'Experimental motion design work',
@@ -62,7 +62,7 @@ const projects = [
     title:'Mixed Parts entry',
     thumbnail:'./img/bizzare/thumbnail2.jpg',
     template:1,
-    desc:'Placeholder description - will be updated later on',
+    desc:'Short but playful piece',
     text:(<span>Short and playful gif created for a mixed.parts(motion design board)<br/>animation contest.</span>),
     text2:'',
     vid:['https://player.vimeo.com/video/316840574', 'https://player.vimeo.com/video/382451381'],
@@ -72,7 +72,7 @@ const projects = [
     {
     id:'pwcsmart',
     title:'PwC - SmartCredentials',
-    desc:'Placeholder description - will be updated later on',
+    desc:'A walkthrough of the PwC blockchain platform',
     thumbnail:'./img/pwc/thumbnail4.jpg',
     template:1,
     text:(<span>Production/Script: Casual Films<br/> Animation/Design/Storyboard: Tom Gasper</span>),
@@ -85,24 +85,16 @@ const projects = [
     title:'MTV - Rewind',
     thumbnail:'./img/mtv/thumbnail2.jpg',
     template: 1,
-    desc:'Placeholder description - will be updated later on',
+    desc:'Promotional TV spot',
     text:'Production: MTV Europe in-house team',
     text2:'Illustration - MaryLou Faure Animation - Keeley Sheppard, Tom Gasper, Amy Shields, Lydia Haworth, Kelly Peters',
     vid:['https://player.vimeo.com/video/333590706'],
     img:[]
     },  
-    // {
-    // title:'Akamai Image Manager',
-    // thumbnail:'./img/akamai/thumbnail.png',
-    // text:"Animated video for one of the world's largest distributed computing platforms services",
-    // text2:'',
-    // vid:'https://player.vimeo.com/video/316832028',
-    // img:[]
-    // },
     {
     id:'illustrations',
     title:'Illustrations',
-    desc:'Placeholder description - will be updated later on',
+    desc:'Collection of personal illustrations and short animations',
     vidThumbnail:"./img/ill/thumbnail.mp4",
     thumbnail:'./img/ill/thumbnail2.gif',
     template:1,
@@ -110,9 +102,18 @@ const projects = [
     text2:'',
     vid:[],
     img:['./img/ill/gif1.gif', './img/ill/img2.jpg', './img/ill/img3.jpg', './img/ill/gif4.gif', './img/ill/gif5.gif', './img/ill/img6.jpg', './img/ill/gif7.gif', ]
-},
-    
-    
+    },
+    {
+    title:'Akamai - Image Manager',
+    id:'akamai',
+    thumbnail:'./img/akamai/thumbnail2.jpg',
+    desc: 'Showcase of an image management tool created by Akamai',
+    template:1,
+    text:"Animated video for one of the world's largest distributed computing platforms services",
+    text2:'',
+    vid:'https://player.vimeo.com/video/316832028',
+    img:[]
+    }
 ]
 
 export default projects;

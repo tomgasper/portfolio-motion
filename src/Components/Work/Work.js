@@ -20,6 +20,7 @@ function Work(props) {
             <WorkSectionMid projects={props.projects} />
             <Thumbnail project={projects[5]} size={"65%"} styleNum={1} side={"left"} isTextBeforeImg={false} />
             <WorkSectionEnd projects={props.projects} />
+            <Thumbnail project={projects[8]} size={"75%"} styleNum={2} side={"left"} isTextBeforeImg={true} />
         </div>
     )
 }

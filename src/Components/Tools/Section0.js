@@ -12,7 +12,7 @@ const Section0 = () => {
                                 timeline that you don't actually need.
                             </div>
                             <div className="tools-gif-container">
-                            <img className="tools-gif" src='/img/tools/new_pose.gif' alt="Gif showcasing keyframe handles issue in AE"></img>
+                            <img className="tools-gif" src='./img/tools/new_pose.gif' alt="Gif showcasing keyframe handles issue in AE"></img>
                             </div>
             </div>
             

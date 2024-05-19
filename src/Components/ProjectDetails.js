@@ -11,7 +11,7 @@ const projectsDetails = [
         'In terms of style, we settled on abstract shapes, subtle gradients and dark background to give the video a slick, modern feel. By blending abstract, smooth animations with product demos, viewers can seamlessly get a good idea of exciting new capabilities that Animdu brings to the table.'
         ],
         media: ["./img/animdu/proj/img1.png", "./img/animdu/proj/img2.png", "./img/animdu/proj/img3.png","./img/animdu/proj/img4.png","./img/animdu/proj/img5.png","./img/animdu/proj/img6.png" ],
-        vidUrl: "https://player.vimeo.com/video/486008220",
+        vidUrl: "https://player.vimeo.com/video/944442197",
     },
     {
         id:'reel',
@@ -131,18 +131,16 @@ const projectsDetails = [
         id:'mtvrewind',
         title:'Rewind',
         client: 'MTV',
-        role: 'Animation',
-        desc:'Collection of personal illustrations and short animations',
+        role: (<span>Illustration: MaryLou Faure <br /> Animation: Keeley Sheppard, Tom Gasper, Amy Shields, Lydia Haworth, Kelly Peters</span>),
+        agency: '',
+        desc:'A promotional spot for the MTV Rewind series that aired nationwide in the UK.',
         text:['In this video, we follow Kyle on his journey to take control of his data. Using a variety of animated characters and minimalist yet vibrant illustrations, the video seamlessly showcases the new Smart Credentials platform.'
         ],
         media: [
-        "./img/ill/img6.jpg",
-        "./img/ill/gif7.gif",
-        "./img/ill/gif5.gif",
-        "./img/ill/img3.jpg",
-        "./img/ill/gif1.gif",
-        "./img/ill/img2.jpg",
-        "./img/ill/gif4.gif",
+        "./img/mtv/img1.jpg",
+        "./img/mtv/img5.jpg",
+        "./img/mtv/img3.jpg",
+        "./img/mtv/img2.jpg",
     ],
         vidUrl: "https://player.vimeo.com/video/333590706",
         templateOptions: {
@@ -159,7 +157,7 @@ const projectsDetails = [
 
     {
         id:'illustrations',
-        title:'Play',
+        title:'Illustrations',
         client: 'Personal',
         role: 'Design/Animation',
         desc:'Collection of personal illustrations and short animations',
@@ -174,7 +172,6 @@ const projectsDetails = [
         "./img/ill/img2.jpg",
         "./img/ill/gif4.gif",
     ],
-        vidUrl: "https://player.vimeo.com/video/333590364",
         templateOptions: {
             showGrid: true,
             gridThreeImgs: false,
@@ -186,6 +183,31 @@ const projectsDetails = [
             isEndMoreImg: true
         }
     },
+    {
+        id:'akamai',
+        title:'Image Manager',
+        client: 'Akamai',
+        role: 'Animation',
+        desc:'The video combines colorful abstract shapes with subtle textures to give the whole video energetic and playful appearance, keeping the viewer engaged for the whole time.',
+        text:[],
+        media: [
+        "./img/akamai/img2.jpg",
+        "./img/akamai/img4.jpg",
+        "./img/akamai/img1.jpg",
+    ],
+    vidUrl: "https://player.vimeo.com/video/812368418",
+        templateOptions: {
+            showGrid: true,
+            gridThreeImgs: true,
+            showText0: false,
+            showText1: true,
+            showVid: true,
+            showEndImg: false,
+            isEndOneImg: false,
+            isEndMoreImg: false
+        }
+    },
+    
 
 ];
 

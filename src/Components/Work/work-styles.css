@@ -43,6 +43,7 @@
     /* background-color: red; */
     width:100%;
     height: 1200px;
+    margin-bottom: 4%;
 }
 
 .workSectionEnd-left {
@@ -173,24 +174,25 @@
 
 @media (max-width: 700px) {
     .workFooter-email-text {
-        margin: 5% 0px 0px 5%;
-        font-size: 18px;
+        margin: 10% 0px 0px 5%;
+        font-size: 16px;
         line-height: 1.5;
     }
 
     .workFooter-text-2 {
-        margin-top:2%;
-        font-size: 28px;
+        margin-top:1%;
+        font-size: 23px;
         text-decoration: underline;
     }
 
     .workFooter-container {
-        height: 250px;
+        margin-top: 10%;
+        height: 300px;
     }
 
     .workFooter-links {
-        width:35%;
-        font-size:14px;
+        width:40%;
+        font-size:12px;
     }
 
     .workSectionMid-container {
@@ -215,7 +217,7 @@
         height: auto;
         gap:5%;
         margin-top: 10%;
-        margin-bottom: 25%;
+        margin-bottom: 10%;
     }
 
     .workSectionEnd-left {

@@ -20,9 +20,10 @@ function About( ) {
             <div className="about-title">Hello! / Czesc!</div>
             <br></br>
             <div className="about-section"><br/>
-            I'm a Polish freelance Art Director and Motion Designer with a focus on 2D animation.<br/>I combine creativity with technical expertise to bring dynamic visuals to life. With a solid background in both artistic and technical disciplines, I aim to create animations that not only look stunning but also convey messages effectively.<br/><br/>Beyond my professional work, I'm passionate about road cycling and graphics programming. I value collaboration and am always open to discussing new, exciting projects.
-            <br/><br/>Let's connect: tomgasper01@gmail.com
-            <br/><br/><br/>Represented in Finland by: btq.fi
+            I'm a Polish Art Director and Motion Designer specializing in 2D animation.<br />I love blending creativity with technical skills to bring dynamic visuals to life.
+            With a background in both art and tech,I strive to create animations that are visually engaging and effectively communicate their message.<br/><br/>Beyond my professional work, I really enjoy road cycling and graphics programming and spend most of my free time on those hobbies.
+            <br/><br/>I love collaborating and am always excited to discuss new projects.<br />Let's connect: <b>tomgasper01@gmail.com</b>
+            <br/><br/><br/>Represented in Finland by: <a href="https://btq.fi/">btq.fi</a>
             </div>
             {/*<div className="about-links">
             <a href='https://dribbble.com/tomgasper'> <img className="about-icons" src={dribbbleIcon} alt="Dribbble Icon" /> </a>

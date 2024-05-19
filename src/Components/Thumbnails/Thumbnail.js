@@ -17,7 +17,7 @@ function Thumbnail({project, vid, size, styleNum, isTextBeforeImg, side }) {
         {
             width: size,
             alignItems:"start",
-            opacity: isActive(),
+            /*opacity: isActive(),*/
         };
 
     if (side === "right")

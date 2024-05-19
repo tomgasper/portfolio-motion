@@ -53,7 +53,7 @@ const Tools = () => {
                     {loadPage(isLoaded)}
                     <div className="tools-title-container">
                         <div className="tools-title-image">
-                            <img className="tools-gif" src='/img/tools/work_man.gif' alt="Opening gif" onLoad={onLoad}></img>
+                            <img className="tools-gif" src='./img/tools/work_man.gif' alt="Opening gif" onLoad={onLoad}></img>
                         </div>
                         <div className='tools-title'>Copy Pose v.0.1</div>
                             <div className="tools-about">     

@@ -5,7 +5,7 @@ const Section1 = ( ) => {
     return (
         <div className='tools-section1-container'>
                         <div className="tools-gif-container">
-                            <img className="tools-gif" alt="script preview 2" src='/img/tools/dylan_rig_800.gif'></img>
+                            <img className="tools-gif" alt="script preview 2" src='./img/tools/dylan_rig_800.gif'></img>
                             <div className="tools-credit">(Artwork: BluBlu Studios)</div>
                         </div>
                         
